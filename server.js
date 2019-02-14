@@ -11,6 +11,7 @@ require('dotenv').config();
 
 //Inner (récupération des données de la page Router et de son chemin pour l'afficher)
 const frontRouter = require('./routes/front.routes');
+const apiRouter = require('./routes//api/api.routes');
 
 // ********************************* Configuration *********************************
 
@@ -29,6 +30,7 @@ class ServerClass{
         server.set('view engine', 'ejs');
 
         //Configurer les routes
+        server.use('/', apiRouter);
         server.use('/', frontRouter);
 
         //Lancer le serveur 

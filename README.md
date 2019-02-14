@@ -28,3 +28,11 @@ Mise en place d'une application de chat.
 - Créer un router front : créer les routes homepage, créer le route register, créer la route login, créer la route chat
 
 
+*Création de l'API
+- Créer un fichier de routes pour l'api (cf. front.routes)
+- Créer une route "register"
+- Créer une route "login"
+
+*Création de formulaire register/login
+- Le formulaire d'inscription contient : email, pseudo, password x2, cgu,
+- Le formulaire de connexion contient : email, password
