@@ -4,6 +4,7 @@ Mise en place d'une application de chat.
 
 - Initialiser le dossier serveur (npm init)
 - Créer un fichier pour le serveur (server.js)
+- Créer un fichier .gitignore
 - Importer les composants : express, body-parser, dotenv, ejs, mongoose, path, nodemon (npm i -s)
 - Configurer le fichier serveur :
     Créer une constante pour les imports (attention à dotenv)
