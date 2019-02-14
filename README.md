@@ -24,6 +24,7 @@ Mise en place d'une application de chat.
 
 - Définir le moteur de rendu en ejs
 - Définir un dossier "www" comme étant le dossier client
-- Créer un fichier "index.html" dans le dossier "www"
+- Créer un fichier "index.ejs" dans le dossier "www"
+- Créer un router front : créer les routes homepage, créer le route register, créer la route login, créer la route chat
 
 
