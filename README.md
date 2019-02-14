@@ -8,7 +8,7 @@ Mise en place d'une application de chat.
 
 *Importer les composants : express, body-parser, dotenv, ejs, mongoose, path, nodemon (npm i -s)
 
-*Dans package.json, ajouter nodemon à la palce de node server js
+*Dans package.json, ajouter nodemon à la place de node server js
 
 *Créer un fichier .gitignore (node_modules/)
 
@@ -19,5 +19,11 @@ Mise en place d'une application de chat.
 - Créer un fichier .env et le protéger avec gitignore
 - Configurer les composants importés 
 - Lancer le serveur avec l'écouteur et ensuite dans le terminal (npm start)
+
+*Configurer les vues clients
+
+- Définir le moteur de rendu en ejs
+- Définir un dossier "www" comme étant le dossier client
+- Créer un fichier "index.html" dans le dossier "www"
 
 
