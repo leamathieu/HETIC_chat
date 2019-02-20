@@ -15,22 +15,22 @@ const Router = express.Router();
 
 //Homepage
 Router.get('/',(req, res) => {
-    res.render('index');
+    res.render('index', { connected: false });
 });
 
 //Register
 Router.get('/register',(req, res) => {
-    res.render('register');
+    res.render('register', { connected: false });
 });
 
 //Login
 Router.get('/login',(req, res) => {
-    res.render('login');
+    res.render('login', { connected: false });
 });
 
 //Chat
 Router.get('/chat',(req, res) => {
-    res.render('chat');
+    res.render('chat', { connected: false });
 });
 
 // ********************************* Exports *********************************

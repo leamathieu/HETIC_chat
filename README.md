@@ -33,6 +33,9 @@ Mise en place d'une application de chat.
 - Créer une route "register"
 - Créer une route "login"
 
-*Création de formulaire register/login
+*Création de formulaire register/login (en include) (nouvelle page form-register.ejs)
 - Le formulaire d'inscription contient : email, pseudo, password x2, cgu,
 - Le formulaire de connexion contient : email, password
+
+
+

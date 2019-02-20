@@ -17,9 +17,16 @@
         <nav>
             <ul>
                 <li><a href="/">Accueil</a></li>
+                
+                <% if( connected===false ){ %>
                 <li><a href="/register">Inscriptions</a></li>
                 <li><a href="/login">Connexion</a></li>
+                <% } %>
+
+                <% if( connected ) { %>
                 <li><a href="/chat">Chatroom</a></li>
+                <% } %>
+                
             </ul>
         </nav>
     </header>

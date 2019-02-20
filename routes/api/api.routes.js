@@ -9,13 +9,21 @@ const apiRouter = express.Router();
 
 // ********************************* Définition *********************************
 
+apiRouter.get('/', (req, res) => {
+    res.json({ msg:'Hello API'})
+});
+
 apiRouter.post('/register', (req, res) => {
-    res.json(register);
+    //Récupérer les données de l'utilisateur 
+    
+    res.json('register');
 });
 
 apiRouter.post('/login', (req, res) => {
-    res.json(login);
+    res.json('login');
 });
+
+
 
 // ********************************* Exports *********************************
 

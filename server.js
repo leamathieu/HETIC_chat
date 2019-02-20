@@ -30,8 +30,10 @@ class ServerClass{
         server.set('view engine', 'ejs');
 
         //Configurer les routes
-        server.use('/', apiRouter);
+        
+        server.use('/api', apiRouter);
         server.use('/', frontRouter);
+        
 
         //Lancer le serveur 
         this.launch();
